@@ -50,6 +50,8 @@ I also focused on an organized environment, so using SCSS is a must for me (at l
 
 Tried to make the card responsive, even though it might not be necessary given the very subtle changes from mobile to desktop layout, but I wanted to give it a try anyway :)
 
+The header image, the title and the name of the creator, given that they have a hover state, made sense to me that they should all be links to a main article, or further details. So i tried making them links, and especially the image part is what i did for the first time along with the icon and the background color for the hover state.
+
 Last, I had already built this project but decided to refactor it, after taking notes from some users' comments in Frontend Mentor Solutions Section. I believe this gave me some more ideas and solutions.
 
 ### Continued development
