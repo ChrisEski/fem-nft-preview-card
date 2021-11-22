@@ -1,0 +1,22 @@
+.attribution {
+  margin-bottom: 42px;
+  font-size: 11px;
+  text-align: center;
+
+  @media (min-width: $desktop) {
+    font-size: 13px;
+  }
+}
+.attribution a {
+  color: $clr--accent-tp;
+  transition: all 0.25s ease-in-out;
+
+  &:hover {
+    color: $clr--accent;
+    font-size: 12px;
+
+    @media (min-width: $desktop) {
+      font-size: 14px;
+    }
+  }
+}

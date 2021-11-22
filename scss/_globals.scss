@@ -1,0 +1,43 @@
+// RESETS
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $ff--main;
+  color: $clr--text;
+  font-size: 16px;
+  font-weight: $fw--light;
+
+  @media (min-width: $desktop) {
+    font-size: $fs--main;
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: $clr--white;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+// MAIN STYLES
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: $clr--bg-main;
+}
